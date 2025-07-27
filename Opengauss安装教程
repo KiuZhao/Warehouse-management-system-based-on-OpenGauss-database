@@ -1,0 +1,5 @@
+安装openGauss：
+
+（1）打开 “PowerShell” 并“docker pull enmotech/opengauss”，拉取openGauss镜像；
+
+（2）然后，输入“docker run --name opengauss --privileged=true -d -e GS_PASSWORD=opengaussDB@1234 -v D：\workspace_data\opengaussdata：/var/lib/opengauss -p 15432：5432 enmotech/opengauss：latest”，创建openGauss容器。
